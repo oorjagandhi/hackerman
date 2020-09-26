@@ -1,12 +1,26 @@
  <!DOCTYPE html>
 <html>
 <head>
-<title>Hello world!/title>
+  <title>title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css" integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/stylesheet.css">
 </head>
+
 <body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph ever</p>
-
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <a href="junior.html">submenu1</a>
+      <a href="senior.html">submenu2</a>
+      <a href="contact.html">submenu3</a>
+    </div>
+  </div>
 </body>
 </html> 
+
+
